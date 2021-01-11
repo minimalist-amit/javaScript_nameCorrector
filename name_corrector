@@ -1,0 +1,3 @@
+var name = prompt("write your FIRST name.");
+var lastName = prompt("write your LAST name.");
+alert("Your corrected typed name is " + name.slice(0,1).toUpperCase()+name.slice(name.length-(name.length-1)).toLowerCase() + " " + lastName.slice(0,1).toUpperCase() + lastName.slice(lastName.length-(lastName.length-1)).toLowerCase());
